@@ -1,0 +1,134 @@
+/* Google font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* All reusable classes */
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.btn-primary {
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 2rem 2.5rem;
+}
+
+/* header sections styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+}
+.navbar {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h3 {
+    color: #131313;
+    font-size: 4.5rem;
+}
+.navbar > ul {
+    display: flex;
+}
+.navbar > ul > li {
+    margin-left: 5rem;
+}
+.navbar > ul > li > a {
+    color: #424242;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.header-description {
+    width: 60%;
+    text-align: center;
+    margin: 10rem auto 7rem;
+}
+.header-description h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.header-description p {
+    font-size: 1.6rem;
+    color: #727272;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+}
+.header-hero-img-container img {
+    width: 100%;
+    margin-bottom: 4.5rem;
+}
+
+/* Responsive part */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .navbar h3 {
+        font-size: 4.2rem;
+    }
+    .navbar > ul {
+        margin-top: 1rem;
+    }
+    .navbar > ul > li {
+        margin-left: 2rem;
+        text-align: center;
+    }
+    .header-description {
+        width: 90%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .header-description h1 {
+        font-size: 3.2rem;
+    }
+    .header-description p {
+        margin-top: 1rem;
+    }
+    .header-hero-img-container img {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Responsive part for medium device */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .navbar h3 {
+        font-size: 3rem;
+    }
+    .navbar > ul > li {
+        margin-left: 2rem;
+    }
+    .header-description {
+        width: 80%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .header-description h1 {
+        font-size: 4rem;
+    }
+}
