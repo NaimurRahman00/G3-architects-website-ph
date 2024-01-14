@@ -221,19 +221,22 @@ header {
     -webkit-filter: grayscale(1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer section */
+footer {
+    margin: 12rem auto;
+}
+footer p {
+    background-color: rgba(255, 144, 14, 0.10);
+    color: #424242;
+    font-size: 2rem;
+    padding: 4rem;
+    text-align: center;
+    border-radius: .8rem;
+    -webkit-border-radius: .8rem;
+    -moz-border-radius: .8rem;
+    -ms-border-radius: .8rem;
+    -o-border-radius: .8rem;
+}
 
 /* Responsive part */
 @media screen and (max-width: 576px) {
@@ -327,6 +330,10 @@ header {
     .sponsors-img img {
         width: 50%;
     }
+    /* Footer */
+    footer {
+        margin: 2rem auto;
+    }
 }
 
 /* Responsive part for medium device */
@@ -394,5 +401,9 @@ header {
     .sponsors-img {
         justify-content: center;
         gap: 4rem;
+    }
+    /* Footer */
+    footer {
+        margin: 2rem auto;
     }
 }
