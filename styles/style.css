@@ -171,6 +171,38 @@ header {
     font-weight: 700;
 }
 
+/* Facts section */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+.facts-card {
+    width: 24.2rem;
+    height: 24.2rem;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.facts-card img {
+    width: 20%;
+}
+.facts-card h4 {
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 1rem auto;
+}
+.facts-card p {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #727272;
+}
+
 
 
 
